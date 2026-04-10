@@ -9,11 +9,11 @@ public class CarroEletrico extends Veiculo {
 
     @Override
     public void mover(){
-        System.out.println(" Carro elétrico movendo-se silenciosamente ");
+        System.out.println(" Carro elétrico movendo-se silenciosamente... " + velocidade );
     }
     @Override
     public void abastecendo(){
-        System.out.println( "Recarregando bateria em posto de carga rápida...");
+        System.out.println( "Recarregando bateria em posto de carga rápida... " + autonomiaBateria );
     }
 
 }
